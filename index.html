@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/font/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mon_Portfolio</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/img/maj.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Acceuil</a></li>
+                    <li> <a href="#about">Apropos</a></li>
+                    <li> <a href="#services">services</a></li>
+                    <li> <a href="#portfolio">portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text home-info reveal">
+                <h1>BISSAMBOU Maria</h1>
+                <h2>Je suis
+                    <span style="--i:3;" data-text="Graphic Designer">Graphic Designer</span>
+                    <span style="--i:2;" data-text="Web Developper"> Web Developper</span>
+                    <span style="--i:1;" data-text="Digital Marketer">Digital Marketer</span>
+                </h2>
+                <p>Transformer vos idées en visuels impactants,<br> en expériences web intuitives et en stratégie <br>
+                    digitale performantes.</p>
+            </div>
+            <!-- --------------------About-------------------------            -->
+
+            <div id="about">
+                <div class="container">
+                    <div class="row reveal">
+                        <div class="about-col-1">
+                            <img src="assets/img/44454.png" alt="">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">Apropos</h1>
+                            <p>Passionnée par la puissance du visuel, je suis graphic designer qui transforme vos idées
+                                en une identité visuelle qui inspire confiance, attire votre public et distingue votre
+                                marque.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-links" onclick="opentab('Compétences')">Compétences</p>
+                                <p class="tab-links" onclick="opentab('Expérience')">Expérience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="Compétences">
+                                <ul>
+                                    <li><span>Graphic Design</span><br> Création de visuels attractifs et
+                                        professionnels.</li>
+                                    <li><span>developpement Web</span> <br> Sites web modernes et performants.</li>
+                                    <li><span>Markéting Digital</span> <br> Stratégies pour booster votre visibilité.
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="tab-contents" id="Expérience">
+                                <ul>
+                                    <li><span>Graphic Design</span><br>Avec une expérience solide en graphisme depuis
+                                        2022, j'ai eu le privilège de travailler sur des projets variés allant de la
+                                        création de logos à la conception de supports marketing percutants.</li>
+                                    <li><span>Développement Web & Markéting digital</span> <br> En 2025 j'ai élargit mes
+                                        compétences dans ces domaines, je mets à profit ma passion pour l'innovation et
+                                        mon apprentissage continu pour offrir des solutions efficaces et bien adaptées à
+                                        vos besoins </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>2022-2023</span><br> Baccalauréat scientifique série c.</li>
+                                    <li><span>Université</span> <br> licence parcours: automatisme et informatique
+                                        industrielle.</li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">Mes services</h1>
+                    <div class="services-list">
+                        <div class="reveal">
+                            <i class="fas fa-paint-brush"></i>
+                            <h2>Design graphic</h2>
+                            <p>Le graphisme est essentiel pour bâtir une identité visuelle forte et mémorable. Que ce
+                                soit pour un logo, une brochure ou un site web, un design de qualité crée une première
+                                impression positive et renforce la crédibilité de votre marque. En investissant dans un
+                                design soigné, vous communiquez de manière plus efficace et engagez votre audience dès
+                                le premier regard.</p>
+
+                        </div>
+
+                        <div class="reveal">
+                            <i class="fas fa-code"></i>
+                            <h2> DEV web</h2>
+                            <p>Un site web bien conçu est la vitrine numérique de votre entreprise. Le développement web
+                                garantit une expérience utilisateur fluide, un design responsive et une fonctionnalité
+                                optimale sur tous les appareils. Avec un site performant, vous augmentez votre
+                                visibilité en ligne, attirez davantage de visiteurs et vous transformez ces derniers en
+                                clients fidèles.</p>
+
+                        </div>
+
+                        <div class="reveal">
+                            <i class="fas fa-chart-line"></i>
+                            <h2>Marketing digital</h2>
+                            <p>Le marketing digital est la clé pour atteindre et engager votre public cible sur les
+                                plateformes en ligne. En utilisant des stratégies adaptées, nous vous aidons à optimiser
+                                votre référencement et à convertir
+                                les prospects en clients. Un marketing digital efficace vous permet de développer votre
+                                entreprise, d'élargir votre audience et de maximiser votre retour sur investissement.
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------Portfolio------------------------ -->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">Mes conceptions</h1>
+                    <h2>Développement web</h2>
+                    <div class="work-list">
+                        <div class="work reveal">
+                            <img src="assets/img/mockup1.jpg" alt="">
+                            <div class="layer">
+                                <h3>site SOS salubrité</h3>
+                                <p>C'est un site qui expose les endroits les plus sales de brazzaville</p>
+                                <a href=""><i class="fa-solid fa-lightbulb fa-beat"></i></a>
+
+                            </div>
+                        </div>
+                        <div class="work reveal">
+                            <img src="assets/img/mb.jpg" alt="">
+                            <div class="layer">
+                                <h3>site SOS salubrité</h3>
+                                <p>C'est un site qui expose les endroits les plus sales de brazzaville</p>
+                                <a href=""><i class="fa-solid fa-lightbulb fa-beat"></i></a>
+                            </div>
+                        </div>
+                        <div class="work reveal">
+                            <img src="assets/img/mc.jpg" alt="">
+                            <div class="layer">
+                                <h3>site SOS salubrité</h3>
+                                <p>C'est un site qui expose les endroits les plus sales de brazzaville</p>
+                                <a href=""><i class="fa-solid fa-lightbulb fa-beat"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <style>
+                        /* Styles pour le bouton Voir plus */
+                        #voir-plus-video {
+                            display: block;
+                            margin: 50px auto;
+                            width: fit-content;
+                            border: 1px solid #ff004f;
+                            padding: 14px 50px;
+                            border-radius: 6px;
+                            text-decoration: none;
+                            color: #000;
+                            transition: background 0.5s;
+                            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+                        }
+
+                        #voir-plus-video:hover {
+                            background-color: #ff004f;
+                        }
+
+                        /* Conteneur de la vidéo */
+                        #video-container {
+                            display: none;
+                            /* Cacher par défaut */
+                            width: 100%;
+                            height: 80vh;
+                            /* 80% de la hauteur de l'écran */
+                            max-width: 100%;
+                            border: none;
+                            background-color: black;
+                        }
+
+                        /* Pour rendre la vidéo responsive */
+                        @media (max-width: 768px) {
+                            #video-container {
+                                height: 70vh;
+                                /* Ajuster la hauteur pour les écrans mobiles */
+                            }
+                        }
+                    </style>
+                    </head>
+
+                    <body>
+
+                        <!-- Bouton pour afficher la vidéo -->
+                        <button id="voir-plus-video">Voir plus </button>
+
+                        <!-- Conteneur de la vidéo, caché par défaut -->
+                        <div id="video-container">
+                            <!-- Remplacez l'URL par le chemin vers votre vidéo -->
+                            <video controls style="width: 100%; height: 100%;">
+                                <source
+                                    src="SOS salubrité et 2 pages de plus - Profil 1 – Microsoft​ Edge 2025-03-23 16-30-09.mp4"
+                                    type="video/mp4">
+                                Votre navigateur ne prend pas en charge la lecture de vidéos.
+                            </video>
+                        </div>
+
+
+                </div>
+
+                <div class="container">
+                    <!-- <h1 class="sub-title">Mes conceptions</h1> -->
+                    <h2>Graphic design</h2>
+                    <div class="work-list">
+                        <div class="work reveal">
+                            <img src="assets/img/armc.jpg" alt="">
+                            <div class="layer">
+                                <h3>arymab</h3>
+                                <p>Création d'identité visuelle</p>
+                                <a href=""><i class="fa-solid fa-lightbulb fa-beat"></i></a>
+
+                            </div>
+                        </div>
+                        <div class="work reveal">
+                            <img src="assets/img/ARYMAB.jpg" alt="">
+                            <div class="layer">
+                                <h3>Arymab</h3>
+                                <p>Création d'identité visuelle</p>
+                                <a href=""><i class="fa-solid fa-lightbulb fa-beat"></i></a>
+                            </div>
+                        </div>
+                        <div class="work reveal">
+                            <img src="assets/img/mab.jpg" alt="">
+                            <div class="layer">
+                                <h3>Arymab</h3>
+                                <p>Création d'identité visuelle</p>
+                                <a href=""><i class="fa-solid fa-lightbulb fa-beat"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <style>
+                        /* Styles pour le bouton Voir plus */
+                        #voir-plus {
+                            display: block;
+                            margin: 50px auto;
+                            width: fit-content;
+                            border: 1px solid #ff004f;
+                            padding: 14px 50px;
+                            border-radius: 6px;
+                            text-decoration: none;
+                            color: #000;
+                            transition: background 0.5s;
+                            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+                        }
+
+                        #voir-plus:hover {
+                            background-color: #ff004f;
+                        }
+
+                        /* Conteneur du PDF (iframe) */
+                        #pdf-container {
+                            display: none;
+                            /* Caché par défaut */
+                            width: 100%;
+                            height: 80vh;
+                            /* 80% de la hauteur de l'écran */
+                            max-width: 100%;
+                            border: none;
+                        }
+
+                        /* Responsive : ajustement de la hauteur sur mobile */
+                        @media (max-width: 768px) {
+                            #pdf-container {
+                                height: 70vh;
+                                /* 70% de l'écran pour éviter un débordement */
+                            }
+                        }
+                    </style>
+                    </head>
+
+                    <body>
+
+                        <!-- Bouton pour afficher le PDF -->
+                        <button class="reveal" id="voir-plus">Voir plus</button>
+
+                        <!-- Conteneur du PDF dans un iframe -->
+                        <iframe id="pdf-container" src="portfolio.pdf"></iframe>
+
+                        <script>
+                            // JavaScript pour afficher/masquer l'iframe du PDF
+                            document.getElementById("voir-plus").addEventListener("click", function () {
+                                let pdfContainer = document.getElementById("pdf-container");
+
+                                // Si l'iframe est cachée, on l'affiche
+                                if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
+                                    pdfContainer.style.display = "block";
+                                } else {
+                                    pdfContainer.style.display = "none"; // Cacher à nouveau si on clique
+                                }
+                            });
+                        </script>
+
+
+                </div>
+                <div id="contact">
+                    <div class="container">
+                        <div class="row reveal">
+                            <div class="contact-left">
+                                <h1 class="sub-title">CONTACT:</h1>
+                                <p> <i class="fas fa-paper-plane"></i>mariabissambou@gmail.com</p>
+                                <p> <i class="fas fa-phone-square-alt"></i> +242 06 792 1810</p>
+                                <div class="social-icons">
+                                    <a href="https://wa.me/+242067921810?text=Bonjour"><i
+                                            class="fab fa-whatsapp"></i></a>
+                                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="contact-right">
+                                <form action="">
+                                    <input type="text" name="Name" placeholder="BISSAMBOU Maria" required>
+                                    <input type="email" name="email" placeholder="mariabissambou@gmail.com" required>
+                                    <textarea name="Message" rows="6"
+                                        placeholder="veuillez nous écrire ici..."></textarea>
+                                    <button type="submit" class="btn btn2 bouton">Soumettre</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Bouton Retour en Haut -->
+            <button id="backToTop">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+
+            <style>
+                #backToTop {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    background-color: #f39c12;
+                    color: white;
+                    border: none;
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 20px;
+                    cursor: pointer;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+                    opacity: 0;
+                    transition: opacity 0.3s, transform 0.3s;
+                }
+
+                #backToTop:hover {
+                    background-color: #e67e22;
+                }
+
+                #backToTop.show {
+                    opacity: 1;
+                }
+            </style>
+
+
+            <footer>
+                <div class="footer-content">
+                    <h2>Maj Services</h2>
+                    <p>Écouter • Imaginer • Créer • Innover</p>
+                    <p>&copy; 2025 Maj services - Tous droits réservés.</p>
+                </div>
+            </footer>
+
+            <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: Arial, sans-serif;
+                }
+
+                /* Footer */
+                footer {
+                    width: 100%;
+                    background-color: #222;
+                    /* Couleur de fond */
+                    color: white;
+                    /* Texte en blanc */
+                    text-align: center;
+                    padding: 20px 10px;
+                    position: relative;
+                    /* S'assure que le footer suit le contenu */
+                    bottom: 0;
+                }
+
+                .footer-content {
+                    max-width: 100%;
+                }
+
+                /* Responsive */
+                @media (max-width: 768px) {
+                    footer {
+                        padding: 15px;
+                        font-size: 14px;
+                    }
+                }
+            </style>
+
+
+
+            <script>
+                const backToTopButton = document.getElementById("backToTop");
+
+                window.addEventListener("scroll", () => {
+                    backToTopButton.classList.toggle("show", window.scrollY > 300);
+                });
+
+                backToTopButton.addEventListener("click", () => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                });
+            </script>
+
+
+
+
+
+
+            <script>
+                var sidemenu = document.getElementById("sidemenu");
+                function openmenu() {
+                    sidemenu.style.right = "0"
+                }
+                function closemenu() {
+                    sidemenu.style.right = "-200px"
+                }
+            </script>
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-links");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-links");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+
+            </script>
+
+            <script>
+                // Sélectionner tous les éléments avec la classe "reveal"
+                const elements = document.querySelectorAll('.reveal');
+
+                // Fonction pour vérifier si un élément est visible dans le viewport
+                const checkVisibility = () => {
+                    elements.forEach(element => {
+                        const rect = element.getBoundingClientRect();
+                        if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+                            element.classList.add('active');
+                        } else {
+                            element.classList.remove('active');
+                        }
+                    });
+                };
+
+                // Ajouter un événement pour vérifier la visibilité au scroll
+                window.addEventListener('scroll', checkVisibility);
+
+                // Appeler la fonction dès le chargement de la page
+                checkVisibility();
+
+            </script>
+
+
+            <script>
+                // Attendre que le DOM soit complètement chargé avant d'ajouter l'événement
+                document.addEventListener("DOMContentLoaded", function () {
+                    let voirPlusVideoButton = document.getElementById("voir-plus-video");
+                    let videoContainer = document.getElementById("video-container");
+
+                    // Vérifier que le bouton et le conteneur vidéo existent
+                    if (voirPlusVideoButton && videoContainer) {
+                        // Afficher/Cacher la vidéo
+                        voirPlusVideoButton.addEventListener("click", function () {
+                            if (videoContainer.style.display === "none" || videoContainer.style.display === "") {
+                                videoContainer.style.display = "block";  // Afficher la vidéo
+                            } else {
+                                videoContainer.style.display = "none";  // Cacher la vidéo si déjà visible
+                            }
+                        });
+                    } else {
+                        console.error("Élément non trouvé.");
+                    }
+                });
+            </script>
+
+
+</body>
+
+</html>
